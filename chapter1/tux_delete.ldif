@@ -1,0 +1,3 @@
+dn: cn=Tux,ou=users,dc=linuxaholics,dc=com
+changeType: modify
+delete: sn

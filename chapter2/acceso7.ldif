@@ -1,0 +1,4 @@
+dn: olcDatabase={2}hdb,cn=config
+changeType: modify
+add: olcAccess
+olcAccess: {0}to dn.children="ou=apps,dc=linuxaholics,dc=com" by self write by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" manage by dn.base="cn=admin,dc=linuxaholics,dc=com" read by dn="uid=webmaster,ou=users,dc=linuxaholics,dc=com" read by * search

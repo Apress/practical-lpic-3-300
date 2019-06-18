@@ -1,0 +1,7 @@
+dn: olcOverlay={0}syncprov,olcDatabase={2}hdb,cn=config
+changeType: modify
+add: olcSpCheckpoint
+olcSpCheckpoint: 100 10
+-
+add: olcSpSessionlog
+olcSpSessionlog: 100

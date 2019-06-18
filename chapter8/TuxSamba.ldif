@@ -1,0 +1,7 @@
+dn: cn=Tux,ou=users,dc=linuxaholics,dc=com
+changeType: modify
+add: objectClass
+objectClass: sambaSamAccount
+-
+add: sambaSID
+sambaSID: S-1-0-0-1234567

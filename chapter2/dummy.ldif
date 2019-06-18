@@ -1,0 +1,7 @@
+dn: cn=dummy,dc=linuxaholics,dc=com
+cn: dummy
+sn: dummy
+objectClass: inetOrgPerson
+userPassword: dummy
+uid: dummy
+

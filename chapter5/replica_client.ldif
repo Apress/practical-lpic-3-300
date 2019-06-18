@@ -1,0 +1,4 @@
+dn: olcDatabase={2}hdb,cn=config
+changeType: modify
+add: olcSyncrepl
+olcSyncrepl: rid=2 provider="ldap://alpha.linuxaholics.com" searchbase="ou=users,dc=linuxaholics,dc=com" scope="sub" type="refreshAndPersist" retry="120 +" bindmethod="simple" binddn="uid=syncrepl,ou=system,dc=linuxaholics,dc=com" credentials="replicant"

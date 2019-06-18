@@ -1,0 +1,4 @@
+dn: cn=module{1},cn=config
+objectClass: olcModuleList
+cn: module{1}
+olcModuleLoad: /usr/lib64/openldap/syncprov.la

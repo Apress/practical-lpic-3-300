@@ -1,0 +1,3 @@
+dn: olcOverlay={0}syncprov,olcDatabase={2}hdb,cn=config
+objectClass: olcSyncProvConfig
+olcOverlay: syncprov

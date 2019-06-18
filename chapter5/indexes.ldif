@@ -1,0 +1,5 @@
+dn: olcDatabase={2}hdb,cn=config
+changeType: modify
+add: olcDbIndex
+olcDbIndex: entryUUID eq
+olcDbIndex: entryCSN eq

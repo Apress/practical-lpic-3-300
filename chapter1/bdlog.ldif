@@ -1,0 +1,8 @@
+dn: olcDatabase={3}hdb,cn=config
+objectClass: olcDatabaseConfig
+objectClass: olcHdbConfig
+olcDatabase: {3}hdb
+olcDbDirectory: /var/lib/ldap/accesslog
+olcSuffix: cn=accesslog
+olcRootDN: cn=admin,dc=linuxaholics,dc=com
+olcDbIndex: default eq

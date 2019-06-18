@@ -1,0 +1,3 @@
+dn: ou=customers,dc=linuxaholics,dc=com
+objectClass: organizationalUnit
+ou: customers

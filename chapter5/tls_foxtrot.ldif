@@ -1,0 +1,13 @@
+dn: cn=config
+changeType: modify
+replace: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/openldap/certs/foxtrot.linuxaholics.com.crt
+-
+replace: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/openldap/certs/foxtrot.linuxaholics.com.key
+-
+add: olcTLSCACertificateFile
+olcTLSCACertificateFile: /etc/openldap/cacerts/ca.cert.pem
+-
+replace: olcTLSCACertificatePath
+olcTLSCACertificatePath: /etc/openldap/cacerts

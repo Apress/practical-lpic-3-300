@@ -1,0 +1,6 @@
+dn: dc=linuxaholics,dc=com
+objectClass: dcObject
+objectClass: organization
+dc: linuxaholics
+o: linuxaholics
+

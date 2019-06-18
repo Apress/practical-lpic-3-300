@@ -1,0 +1,8 @@
+dn: olcDatabase={2}hdb,cn=config
+changeType: modify
+replace: olcSuffix
+olcSuffix: dc=linuxaholics,dc=com
+-
+replace: olcRootDN
+olcRootDN: cn=admin,dc=linuxaholics,dc=com
+

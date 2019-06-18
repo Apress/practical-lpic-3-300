@@ -1,0 +1,4 @@
+dn: cn=config
+changetype: modify
+add: olcAuthzRegexp
+olcAuthzRegexp: "uid=tux,cn=digest-md5,cn=auth" "cn=Tux,ou=users,dc=linuxaholics,dc=com"

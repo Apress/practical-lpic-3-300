@@ -1,0 +1,7 @@
+dn: cn=john,ou=users,dc=linuxaholics,dc=com
+cn: John
+sn: Doe
+objectClass: inetOrgPerson
+userPassword: nobody
+uid: john
+

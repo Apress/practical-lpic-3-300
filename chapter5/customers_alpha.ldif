@@ -1,0 +1,5 @@
+dn: ou=customers,dc=linuxaholics,dc=com
+objectClass: referral
+objectClass: extensibleObject
+ou: customers
+ref: ldap://golf.linuxaholics.com/ou=customers,dc=linuxaholics,dc=com

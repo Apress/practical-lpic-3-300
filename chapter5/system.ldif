@@ -1,0 +1,3 @@
+dn: ou=system,dc=linuxaholics,dc=com
+objectClass: organizationalUnit
+ou: system

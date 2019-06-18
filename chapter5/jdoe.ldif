@@ -1,0 +1,6 @@
+dn: cn=jdoe,ou=customers,dc=linuxaholics,dc=com
+cn: Jane
+sn: Doe
+objectClass: inetOrgPerson
+userPassword: Jane
+uid: jdoe

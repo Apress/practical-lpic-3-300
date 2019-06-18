@@ -1,0 +1,6 @@
+dn: cn=Tux,ou=users,dc=linuxaholics,dc=com
+cn: Tux
+sn: Tuxon
+objectClass: inetOrgPerson
+userPassword: linuxrules
+uid: Tux

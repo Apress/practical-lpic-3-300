@@ -1,0 +1,5 @@
+dn: cn=scientists, ou=users, dc=linuxaholics, dc=com
+cn: scientists
+objectClass: groupOfNames
+member: cn=Tux, ou=users, dc=linuxaholics, dc=com
+
